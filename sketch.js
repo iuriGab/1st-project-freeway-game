@@ -10,12 +10,3 @@ function draw() {
   carsmoviment();
   returnCarsToBeginning();
 }
-
-
-
-
-
-
-
-
-

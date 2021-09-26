@@ -17,15 +17,11 @@ function carsmoviment(){
 }
 
 function returnCarsToBeginning(){
-  if (xCars[0] < -70){
-    xCars[0] = 600
-  }
-  if (xCars[1] < -70){
-    xCars[1] = 600
-  }
-  if (xCars[2] < -70){
-    xCars[2] = 600
-  }
+  for (let i = 0; i < carsImages.length; i += 1)
+  if (carsPassToScreen(xCars[i])){
+    xCars[i] = 600
 }
 
-
+function carsPassToScreen(xCar){
+  return xCar < -70
+}
