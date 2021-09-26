@@ -9,4 +9,5 @@ function draw() {
   cars();
   carsmoviment();
   returnCarsToBeginning();
+  cowCollide();
 }
