@@ -10,4 +10,6 @@ function draw() {
   carsmoviment();
   returnCarsToBeginning();
   cowCollide();
+  scoreBoard();
+  toScore();
 }

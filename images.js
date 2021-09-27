@@ -9,5 +9,5 @@ function preload(){
   greenCarImage = loadImage("images/carro-1.png");
   yellowCarImage = loadImage("images/carro-3.png");
   blackCarImage = loadImage("images/carro-2.png");
-  carsImages = [greenCarImage, yellowCarImage, blackCarImage];
+  carsImages = [greenCarImage, yellowCarImage, blackCarImage, greenCarImage, yellowCarImage, blackCarImage];
 }

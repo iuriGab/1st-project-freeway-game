@@ -22,7 +22,12 @@ function cowCollide(){
   for (let i = 0; i < carsImages.length; i += 1){
     collision = collideRectCircle(xCars[i], yCars[i], wCars, hCars, xCow, yCow, 15)
     if (collision){
-      yCow = 366;
+      returnCowToBeginning();
+      myScore = 0;
     }
   }
+}
+
+function returnCowToBeginning(){
+  yCow = 366;
 }
