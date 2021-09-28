@@ -1,5 +1,5 @@
 //cow-actor
-let xCow = 80; let yCow = 366;
+let xCow = 80; let yCow = 368;
 let wCow = 30; let hCow = 30;
 let cowVelocity = 6
 
@@ -14,8 +14,14 @@ function cowMoviment(){
     yCow -= cowVelocity;
   }
   if (keyIsDown(DOWN_ARROW)){
+    if (cowLimitMoviment()){
     yCow += cowVelocity;
+    }
   }
+}
+
+function cowLimitMoviment(){
+  return yCow < 368;
 }
 
 function cowCollide(){
