@@ -8,7 +8,7 @@ function draw() {
   cow();
   cowMoviment();
   cars();
-  carsmoviment();
+  carsMoviment();
   returnCarsToBeginning();
   cowCollide();
   scoreBoard();

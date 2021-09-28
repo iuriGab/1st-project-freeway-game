@@ -10,7 +10,7 @@ function cars(){
   }
 }
 
-function carsmoviment(){
+function carsMoviment(){
   for (let i = 0; i < xCars.length; i++){
     xCars[i] -= carsVelocity [i];
   }
