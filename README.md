@@ -2,4 +2,4 @@
 Study Project.
 
 Viewer Project:
-https://editor.p5js.org/Iuri_gab/full/fwig-xea8
+https://preview.p5js.org/Iuri_gab/present/fwig-xea8
