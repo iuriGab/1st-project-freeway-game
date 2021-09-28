@@ -30,6 +30,7 @@ function cowCollide(){
     if (collision){
       returnCowToBeginning();
       myScore = 0;
+      soundCollide.play();
     }
   }
 }

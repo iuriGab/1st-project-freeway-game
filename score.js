@@ -14,5 +14,6 @@ function toScore(){
     if (yCow < 12){
         myScore += 1
         returnCowToBeginning();
+        soundScore.play();
     }
 }
